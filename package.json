@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "Nick Zbiegien's portfolio",
-  "author": "Nick Zbiegien",
+  "author": "nick@deploy.at",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
