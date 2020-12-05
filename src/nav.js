@@ -20,7 +20,7 @@ export const Nav = (props) => {
       <nav className={`enavbar-nav ${isNav ? 'enavbar-nav--opened' : ''}`}>
         <ul>
           <li><span onClick={scrollToWork}>Work</span></li>
-          <li><span onClick={scrollToHire}>Hire</span></li>
+          <li><span onClick={scrollToHire}>Contact</span></li>
           <li><span onClick={scrollToAbout}>About</span></li>
         </ul>
       </nav>

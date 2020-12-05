@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { ReactComponent as SVGPizza } from './images/pizza.svg'
+import { ReactComponent as SVGEuro } from './images/euro.svg'
 import { ReactComponent as SVGAtomik } from './images/atomik.svg'
 import { ReactComponent as SVGHackFS } from './images/hackfs.svg'
 import { ReactComponent as SVGStock } from './images/stock.svg'
@@ -10,6 +12,24 @@ export const Work = (props) => {
 
   return (
     <section ref={workRef} className="row">
+      <div className="col-md-6 pr-0 pl-0">
+        <a href="https://winter-sea-9819.on.fleek.co/" target="_blank" rel="noopener noreferrer">
+          <div className="work-card work-card--pizza">
+            <SVGPizza className="work-card-icon" />
+            <h3 className="work-card-title">Pizza Swap</h3>
+          </div>
+        </a>
+      </div>
+
+      <div className="col-md-6 pr-0 pl-0">
+        <a href="https://github.com/STYX2DAI/styx-core" target="_blank" rel="noopener noreferrer">
+          <div className="work-card work-card--euro">
+            <SVGEuro className="work-card-icon" />
+            <h3 className="work-card-title">Chainlink Euro</h3>
+          </div>
+        </a>
+      </div>
+
       <div className="col-md-6 pr-0 pl-0">
         <a href="https://atomiklabs.io" target="_blank" rel="noopener noreferrer">
           <div className="work-card work-card--atomik">
@@ -23,7 +43,7 @@ export const Work = (props) => {
         <a href="https://github.com/atomiklabs/defuma" target="_blank" rel="noopener noreferrer">
           <div className="work-card work-card--hackfs">
             <SVGHackFS className="work-card-icon" />
-            <h3 className="work-card-title">HackFS Hackathon</h3>
+            <h3 className="work-card-title">Decentralised Full Market</h3>
           </div>
         </a>
       </div>
