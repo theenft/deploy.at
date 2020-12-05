@@ -51,12 +51,12 @@ export const About = (props) => {
         </p>
         <ul>
           <li>Full Stack</li>
+          <li>Front End interfaces</li>
           <li>Ethereum projects</li>
           <li>Decentralized finance (DeFi)</li>
           <li>Tokenomics</li>
           <li>IPFS</li>
           <li>Oracles</li>
-          <li>Front End interfaces</li>
         </ul>
         <p>
           Let's chat! {''}
