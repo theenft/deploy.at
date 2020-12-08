@@ -126,7 +126,8 @@ const fetchEthAddress = from(getEthAddress()).pipe(
 )
 
 const sub$ = forkJoin({
-  ethAddress: fetchEthAddress,
+  // ethAddress: fetchEthAddress, // off
+  ethAddress: of(null),
   localization: fetchLocalization,
   countriesList: fetchCountriesList,
 })
