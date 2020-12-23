@@ -33,30 +33,33 @@ export const About = (props) => {
           economics, personal development and simplifying peopleʼs lives.
         </p>
         <p>
+          <strong>Areas:</strong>
+        </p>
+        <ul>
+          <li>Full Stack</li>
+          <li>Smart Contracts</li>
+          <li>Front End interfaces</li>
+          <li>Ethereum blockchain</li>
+          <li>Stellar blockchain</li>
+          <li>Decentralized finance (DeFi)</li>
+          <li>Tokenomics</li>
+          <li>IPFS</li>
+          <li>Oracles</li>
+        </ul>
+        <p>
           <strong>Skills:</strong>
         </p>
         <ul>
           <li>JavaScript / TypeScript</li>
           <li>Solidity</li>
+          <li>Web3.0</li>
           <li>React</li>
-          <li>Redux</li>
+          <li>Redux / Mobx</li>
           <li>Node</li>
           <li>CSS</li>
+          <li>Docker</li>
           <li>Test-driven development (TDD)</li>
           <li>Functional & Reactive programming</li>
-          <li>Distributed systems</li>
-        </ul>
-        <p>
-          <strong>Areas:</strong>
-        </p>
-        <ul>
-          <li>Full Stack</li>
-          <li>Front End interfaces</li>
-          <li>Ethereum projects</li>
-          <li>Decentralized finance (DeFi)</li>
-          <li>Tokenomics</li>
-          <li>IPFS</li>
-          <li>Oracles</li>
         </ul>
         <p>
           Let's chat! {''}
@@ -73,9 +76,7 @@ export const About = (props) => {
           <a href="mailto:nick@deploy.at?subject=deploy.at">email me</a>
           to get one.
         </p>
-        <p className="about-domain">
-          ** deployat.eth / deployat.crypto
-        </p>
+        <p className="about-domain">** deployat.eth / deployat.crypto</p>
         <div className="about-social">
           <a href="https://linkedin.com/in/zbiegien/" target="_blank" rel="noopener noreferrer">
             <SVGLinkedin className="about-social-icon" />

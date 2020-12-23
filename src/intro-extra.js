@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Web3 from 'web3'
+// import Web3 from 'web3'
 import { forkJoin, from, of } from 'rxjs'
 import { ajax } from 'rxjs/ajax'
 import { catchError, mergeAll } from 'rxjs/operators'
@@ -97,22 +97,22 @@ const getGreetings = () => {
   return greet.string
 }
 
-const getEthAddress = () => {
-  if (window.ethereum) {
-    // Modern dapp browsers
-    window.ethereum.autoRefreshOnNetworkChange = false
-    window.web3 = new Web3(window.ethereum)
-    return window.ethereum.enable()
-  } else if (window.web3) {
-    // Legacy dapp browsers
-    const web3 = new Web3(window.web3.currentProvider)
-    window.web3 = web3
-    return web3.eth.getAccounts()
-  } else {
-    // Non-dapp browsers
-    return of(null)
-  }
-}
+// const getEthAddress = () => {
+//   if (window.ethereum) {
+//     // Modern dapp browsers
+//     window.ethereum.autoRefreshOnNetworkChange = false
+//     window.web3 = new Web3(window.ethereum)
+//     return window.ethereum.enable()
+//   } else if (window.web3) {
+//     // Legacy dapp browsers
+//     const web3 = new Web3(window.web3.currentProvider)
+//     window.web3 = web3
+//     return web3.eth.getAccounts()
+//   } else {
+//     // Non-dapp browsers
+//     return of(null)
+//   }
+// }
 
 const fetchLocalization = ajax.getJSON('https://ipapi.co/json/').pipe(catchError((err) => of(err)))
 
@@ -120,10 +120,10 @@ const fetchCountriesList = ajax
   .getJSON('https://unpkg.com/country-flag-emoji-json@1.0.2/json/flag-emojis-by-code.json')
   .pipe(catchError((err) => of(err)))
 
-const fetchEthAddress = from(getEthAddress()).pipe(
-  mergeAll(),
-  catchError((err) => of(null))
-)
+// const fetchEthAddress = from(getEthAddress()).pipe(
+//   mergeAll(),
+//   catchError((err) => of(null))
+// )
 
 const sub$ = forkJoin({
   // ethAddress: fetchEthAddress, // off
