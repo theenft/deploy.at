@@ -13,12 +13,12 @@ export const Main = () => {
   const aboutRef = React.createRef()
   const hireRef = React.createRef()
 
-  const scrollIntoView = ref => () => {
+  const scrollIntoView = (ref) => () => {
     setNav(!isNav)
     ref.current.scrollIntoView({ behavior: 'smooth' })
   }
 
-  const scrollToWork = scrollIntoView(workRef)
+  const scrollToWork = scrollIntoView(aboutRef)
   const scrollToAbout = scrollIntoView(aboutRef)
   const scrollToHire = scrollIntoView(hireRef)
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 // import Web3 from 'web3'
 import { forkJoin, from, of } from 'rxjs'
 import { ajax } from 'rxjs/ajax'
-import { catchError, mergeAll } from 'rxjs/operators'
+import { catchError, mergeAll, delay } from 'rxjs/operators'
 import Identicon from 'identicon.js'
 
 import greetsData from './greets.data'
@@ -130,7 +130,7 @@ const sub$ = forkJoin({
   ethAddress: of(null),
   localization: fetchLocalization,
   countriesList: fetchCountriesList,
-})
+}).pipe(delay(3000))
 
 const detectUserLanguage = () =>
   [

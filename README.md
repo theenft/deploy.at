@@ -1,12 +1,11 @@
 # Portfolio
 
-My portfolio website. Welcome! :)
+Welcome!
 
 ## Live
 
 * https://deploy.at
-
-<img src="https://i.ibb.co/QbvjYCj/Screen-Shot-2020-07-06-at-20-22-29.png" width="50%">
+* https://deployat.eth.link (IPFS)
 
 ## Run Scripts
 ```json
@@ -22,10 +21,9 @@ My portfolio website. Welcome! :)
 * Express
 * React
 * RxJS
-* Identicon.js
 * Web3
 * Sass
-* IPFS (fleek.co hosting)
+* IPFS
 * Cloudflare
 * Mobile friendly
 

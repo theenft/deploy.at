@@ -25,7 +25,8 @@ export const About = (props) => {
         <p>
           Hello! I am Nick Zbiegien. I am a software engineer with a master of engineering in computer science and
           <strong> 6+ years experience</strong> in creating quality web systems, with a year focused on{' '}
-          <strong>decentralized applications (dApps)</strong> run on <strong>Ethereum</strong> blockchain.
+          decentralized applications (dApps) run on <strong>Ethereum</strong> blockchain. Currently
+          moving towards the <strong>Polkadot / Substrate</strong> ecosystem.
         </p>
         <p>I worked on a spot in fin-tech companies in Poland, Uruguay and Sydney Australia.</p>
         <p>
@@ -40,7 +41,8 @@ export const About = (props) => {
           <li>Smart Contracts</li>
           <li>Front End interfaces</li>
           <li>Ethereum blockchain</li>
-          <li>Stellar blockchain</li>
+          <li>Polkadot blockchain</li>
+          <li>Parachains</li>
           <li>Decentralized finance (DeFi)</li>
           <li>Tokenomics</li>
           <li>IPFS</li>
@@ -51,6 +53,8 @@ export const About = (props) => {
         </p>
         <ul>
           <li>JavaScript / TypeScript</li>
+          <li>Rust</li>
+          <li>Substrate</li>
           <li>Solidity</li>
           <li>Web3.0</li>
           <li>React</li>
@@ -58,6 +62,7 @@ export const About = (props) => {
           <li>Node</li>
           <li>CSS</li>
           <li>Docker</li>
+          <li>AWS</li>
           <li>Test-driven development (TDD)</li>
           <li>Functional & Reactive programming</li>
         </ul>

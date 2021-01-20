@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: #333;
 
   &:focus, &:hover {
     color: #000;
@@ -45,6 +45,14 @@ a {
   margin-bottom: 3rem;
 }
 
+.intro-logos > img {
+  max-width: 25px;
+}
+
+.intro-logos-eth {
+  margin-right: 1.2rem;
+}
+
 // ------ Intro Extra ------
 .intro-extra {
   animation: opacity 6s;
@@ -67,6 +75,25 @@ a {
 
 .intro-extra > p {
   margin-bottom: 0.4rem;
+}
+
+// ------ Dots break ------
+.dots {
+  margin-bottom: 20vh;
+  margin-top: 10vh;
+  transform: rotate(90deg);
+}
+
+.dots-line {
+  fill: none;
+  stroke: #333;
+  stroke-width: 2;
+  marker: url(#circle-marker);
+}
+
+#circle-marker circle {
+  fill: #333;
+  stroke: #333;
 }
 
 // ------ Work ------
@@ -250,3 +277,4 @@ a {
   50% {transform: scale(1.15);}
   100% {transform: scale(1);}
 }
+
