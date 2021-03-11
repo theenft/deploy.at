@@ -81,7 +81,6 @@ export const About = (props) => {
           <a href="mailto:nick@deploy.at?subject=deploy.at">email me</a>
           to get one.
         </p>
-        <p className="about-domain">** deployat.eth / deployat.crypto</p>
         <div className="about-social">
           <a href="https://linkedin.com/in/zbiegien/" target="_blank" rel="noopener noreferrer">
             <SVGLinkedin className="about-social-icon" />

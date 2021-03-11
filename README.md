@@ -5,7 +5,6 @@ Welcome!
 ## Live
 
 * https://deploy.at
-* https://deployat.eth.link (IPFS)
 
 ## Run Scripts
 ```json
