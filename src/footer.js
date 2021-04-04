@@ -6,7 +6,6 @@ export const Footer = (props) => {
   return (
     <footer ref={hireRef} className="footer">
       <p>© Nick Zbiegien 2021</p>
-      <a className="footer-code" href="https://github.com/deployAt/portfolio" target="_blank" rel="noopener noreferrer">source code</a>
     </footer>
   )
 }
