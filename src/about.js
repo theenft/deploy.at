@@ -24,7 +24,7 @@ export const About = (props) => {
         </div>
         <p>
           Hello! I am Nick Zbiegien. I am a software engineer with a master of engineering in computer science and
-          <strong> 6+ years experience</strong> in creating quality web systems, with a year focused on{' '}
+          <strong> 7+ years experience</strong> in creating quality web systems, with a year focused on{' '}
           decentralized applications (dApps) run on <strong>Ethereum</strong> blockchain. Currently
           moving towards the <strong>Polkadot / Substrate</strong> ecosystem.
         </p>
