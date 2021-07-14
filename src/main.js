@@ -3,13 +3,13 @@ import React, { useState } from 'react'
 import './main.scss'
 import { Intro } from './intro'
 import { Nav } from './nav'
-import { Work } from './work'
+// import { Work } from './work'
 import { About } from './about'
 import { Footer } from './footer'
 
 export const Main = () => {
   const [isNav, setNav] = useState(false)
-  const workRef = React.createRef()
+  // const workRef = React.createRef()
   const aboutRef = React.createRef()
   const hireRef = React.createRef()
 
@@ -18,7 +18,7 @@ export const Main = () => {
     ref.current.scrollIntoView({ behavior: 'smooth' })
   }
 
-  const scrollToWork = scrollIntoView(aboutRef)
+  // const scrollToWork = scrollIntoView(aboutRef)
   const scrollToAbout = scrollIntoView(aboutRef)
   const scrollToHire = scrollIntoView(hireRef)
 
@@ -26,7 +26,7 @@ export const Main = () => {
     <div className="container-fluid page-container">
       <header>
         <Nav
-          scrollToWork={scrollToWork}
+          // scrollToWork={scrollToWork}
           scrollToAbout={scrollToAbout}
           scrollToHire={scrollToHire}
           setNav={setNav}
@@ -35,7 +35,7 @@ export const Main = () => {
       </header>
       <main>
         <Intro />
-        <Work workRef={workRef} />
+        {/* <Work workRef={workRef} /> */}
         <About aboutRef={aboutRef} />
       </main>
       <Footer hireRef={hireRef} />

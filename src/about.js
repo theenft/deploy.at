@@ -24,29 +24,28 @@ export const About = (props) => {
         </div>
         <p>
           Hello! I am Nick Zbiegien. I am a software engineer with a master of engineering in computer science and
-          <strong> 7+ years experience</strong> in creating quality web systems, with a year focused on{' '}
-          decentralized applications (dApps) run on <strong>Ethereum</strong> blockchain. Currently
-          moving towards the <strong>Polkadot / Substrate</strong> ecosystem.
+          <strong> 8+ years experience</strong> in creating quality web systems, with 2 years focused on{' '}
+          <strong>Ethereum </strong> and <strong>Polkadot (Substrate)</strong> blockchains.
         </p>
-        <p>I worked on a spot in fin-tech companies in Poland, Uruguay and Sydney Australia.</p>
+        <p>I worked on a spot in fin-tech companies in Poland, Uruguay, and Sydney Australia.</p>
         <p>
-          I am always eager to share my knowledge with others and I am a big fan of blockchain, defi, finance, banking,
-          economics, personal development and simplifying peopleʼs lives.
+          I am always eager to share my knowledge with others and I am a big fan of blockchain, DeFi, finance, stocks,
+          economics, personal development, and simplifying peopleʼs lives.
         </p>
         <p>
           <strong>Areas:</strong>
         </p>
         <ul>
           <li>Full Stack</li>
-          <li>Smart Contracts</li>
-          <li>Front End interfaces</li>
           <li>Ethereum blockchain</li>
           <li>Polkadot blockchain</li>
-          <li>Parachains</li>
-          <li>Decentralized finance (DeFi)</li>
+          <li>Smart Contracts</li>
+          <li>Front End interfaces</li>
+          <li>Runtime / Parachains </li>
+          <li>DeFi</li>
+          <li>NFTs</li>
           <li>Tokenomics</li>
           <li>IPFS</li>
-          <li>Oracles</li>
         </ul>
         <p>
           <strong>Skills:</strong>
@@ -55,7 +54,7 @@ export const About = (props) => {
           <li>JavaScript / TypeScript</li>
           <li>Rust</li>
           <li>Substrate</li>
-          <li>Solidity</li>
+          <li>Solidity / Ink!</li>
           <li>Web3.0</li>
           <li>React</li>
           <li>Redux / Mobx</li>
@@ -72,7 +71,7 @@ export const About = (props) => {
             nick@deploy.at
           </a>
         </p>
-        <p className="about-resume">
+        {/* <p className="about-resume">
           * See my resume on
           <a href="https://linkedin.com/in/zbiegien/" target="_blank" rel="noopener noreferrer">
             LinkedIn
@@ -80,7 +79,7 @@ export const About = (props) => {
           or
           <a href="mailto:nick@deploy.at?subject=deploy.at">email me</a>
           to get one.
-        </p>
+        </p> */}
         <div className="about-social">
           <a href="https://linkedin.com/in/zbiegien/" target="_blank" rel="noopener noreferrer">
             <SVGLinkedin className="about-social-icon" />

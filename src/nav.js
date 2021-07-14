@@ -4,7 +4,7 @@ import './nav.scss'
 import { ReactComponent as SVGEthereum } from './images/ethereum.svg'
 
 export const Nav = (props) => {
-  const { isNav, setNav, scrollToWork, scrollToHire, scrollToAbout } = props
+  const { isNav, setNav, scrollToHire, scrollToAbout } = props
 
   return (
     <div className="enavbar">
@@ -19,7 +19,7 @@ export const Nav = (props) => {
       </div>
       <nav className={`enavbar-nav ${isNav ? 'enavbar-nav--opened' : ''}`}>
         <ul>
-          <li><span onClick={scrollToWork}>Work</span></li>
+          {/* <li><span onClick={scrollToWork}>Work</span></li> */}
           <li><span onClick={scrollToHire}>Contact</span></li>
           <li><span onClick={scrollToAbout}>About</span></li>
         </ul>
