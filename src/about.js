@@ -23,11 +23,11 @@ export const About = (props) => {
           <img src={IMGProfile} alt="profile" className="about-profile-img" />
         </div>
         <p>
-          Hello! I am Nick Zbiegien. I am a software engineer with a master of engineering in computer science and
+          Hello! I am Nick Zbiegien. I am a Software Engineer with a master of engineering in computer science and
           <strong> 8+ years experience</strong> in creating quality web systems, with 2 years focused on{' '}
           <strong>Ethereum </strong> and <strong>Polkadot (Substrate)</strong> blockchains.
         </p>
-        <p>I worked on a spot in fin-tech companies in Poland, Uruguay, and Sydney Australia.</p>
+        <p>I worked on a spot in tech companies in Poland, Uruguay, and Sydney Australia.</p>
         <p>
           I am always eager to share my knowledge with others and I am a big fan of blockchain, DeFi, finance, stocks,
           economics, personal development, and simplifying peopleʼs lives.
