@@ -40,7 +40,7 @@ export const About = (props) => {
           <li>Ethereum blockchain</li>
           <li>Polkadot blockchain</li>
           <li>Smart Contracts</li>
-          <li>Front End interfaces</li>
+          <li>DApp Front End interfaces</li>
           <li>Runtime / Parachains </li>
           <li>DeFi</li>
           <li>NFTs</li>
